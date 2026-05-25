@@ -694,3 +694,75 @@ li::before {
     padding: 28px;
   }
 }
+
+/* FINAL FIX — Home problem section alignment */
+.problemSection {
+  width: min(1120px, calc(100% - 128px));
+  margin: 0 auto;
+  padding: 92px 0;
+  display: block;
+}
+
+.problemSection > div:first-child {
+  max-width: 760px;
+  margin-bottom: 44px;
+}
+
+.problemSection h2 {
+  margin: 18px 0 18px;
+  max-width: 760px;
+  font-size: clamp(36px, 4vw, 56px);
+  line-height: 1.04;
+  letter-spacing: -0.055em;
+  color: var(--deep);
+}
+
+.problemSection .problemGrid.threeCards {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+}
+
+.problemSection .problemGrid.threeCards > div {
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: 28px;
+  padding: 34px;
+  box-shadow: var(--shadow-md);
+}
+
+.problemSection .problemGrid.threeCards h3 {
+  margin: 0 0 16px;
+  font-size: 26px;
+  line-height: 1.16;
+  letter-spacing: -0.04em;
+  color: var(--text);
+}
+
+.problemSection .problemGrid.threeCards p {
+  margin: 0;
+  color: #5d6d80;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+@media (max-width: 960px) {
+  .problemSection {
+    width: min(100% - 48px, 1180px);
+  }
+
+  .problemSection .problemGrid.threeCards {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .problemSection {
+    width: min(100% - 36px, 1180px);
+  }
+
+  .problemSection .problemGrid.threeCards > div {
+    padding: 24px;
+  }
+}
