@@ -418,8 +418,8 @@ function AppShell({ children }) {
 function Navigation({ currentPath }) {
   return (
     <nav className="navbar">
-      <NavLink href={routes.home} className="logo" currentPath={currentPath}>
-        SwissFlow
+      <NavLink href={routes.home} className="logo logoImageLink" currentPath={currentPath}>
+        <img src="/swissflow-logo.png" alt="SwissFlow" className="brandLogo" />
       </NavLink>
       <div className="navLinks">
         <NavLink href={routes.home} currentPath={currentPath}>Home</NavLink>
