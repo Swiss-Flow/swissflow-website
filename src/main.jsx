@@ -140,16 +140,15 @@ const legalDocuments = {
         heading: "Website operator",
         paragraphs: [
           "SwissFlow",
-          "Legal operator: [INSERT FULL LEGAL NAME OR REGISTERED COMPANY NAME]",
-          "Address: [INSERT FULL POSTAL ADDRESS, SWITZERLAND]",
+          "Legal operator: Marko Markovic",
+          "Address: Viale Cassone, 6369 Pregassona - Lugano",
           "Email: info@swiss-flow.com",
-          "UID / commercial register number: [INSERT IF AVAILABLE]",
         ],
       },
       {
         heading: "Responsible for website content",
         paragraphs: [
-          "[INSERT FULL LEGAL NAME OR REGISTERED COMPANY NAME]",
+          "SwissFlow by Marko Markovic",
           "Email: info@swiss-flow.com",
         ],
       },
@@ -193,15 +192,15 @@ const legalDocuments = {
     title: "Privacy Policy",
     intro:
       "This Privacy Policy explains how SwissFlow processes personal data in connection with this website and business inquiries, in accordance with Swiss data protection law.",
-    updated: "Last updated: 19 May 2026",
+    updated: "Last updated: 26 May 2026",
     sections: [
       {
         heading: "Controller",
         paragraphs: [
           "The controller responsible for data processing in connection with this website is:",
           "SwissFlow",
-          "Legal operator: [INSERT FULL LEGAL NAME OR REGISTERED COMPANY NAME]",
-          "Address: [INSERT FULL POSTAL ADDRESS, SWITZERLAND]",
+          "Legal operator: Marko Markovic",
+          "Address: Viale Cassone, 6963 Pregassona - Lugano",
           "Email: info@swiss-flow.com",
         ],
       },
@@ -288,7 +287,7 @@ const legalDocuments = {
     eyebrow: "Cookies",
     title: "Cookie Policy",
     intro: "This Cookie Policy explains how SwissFlow may use cookies and similar technologies on this website.",
-    updated: "Last updated: 19 May 2026",
+    updated: "Last updated: 26 May 2026",
     sections: [
       {
         heading: "Current cookie use",
@@ -321,7 +320,7 @@ const legalDocuments = {
     eyebrow: "Terms",
     title: "Terms of Use",
     intro: "These Terms of Use govern access to and use of the SwissFlow website.",
-    updated: "Last updated: 19 May 2026",
+    updated: "Last updated: 26 May 2026",
     sections: [
       {
         heading: "Website use",
