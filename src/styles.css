@@ -766,3 +766,24 @@ li::before {
     padding: 24px;
   }
 }
+
+/* SwissFlow logo */
+.logoImageLink {
+  display: inline-flex;
+  align-items: center;
+  height: 44px;
+  text-decoration: none;
+}
+
+.brandLogo {
+  display: block;
+  height: 34px;
+  width: auto;
+  object-fit: contain;
+}
+
+@media (max-width: 640px) {
+  .brandLogo {
+    height: 30px;
+  }
+}
